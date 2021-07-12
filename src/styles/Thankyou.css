@@ -1,0 +1,77 @@
+.thankyouBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 1000px;
+    background-color: white;
+    height: 200px;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.thankYouTitle{
+    font-size: 32px;
+    margin-top: -20px;
+    letter-spacing: 1px;
+}
+
+.text{
+    font-size: 17px;
+    padding: 15px;
+    margin: 0px 10px;
+}
+.thankYouTitle span{
+    color: rgb(26, 170, 26);
+    padding: 20px;
+}
+.thankYouTitle span .tickIcon{
+    transform: scale(1.5);
+}
+.thankyouBox a {
+    width: 90%;
+    height: 32px;
+    border: 1px solid rgb(172, 113, 3) ;
+    background-color: #F0C454;
+    background: linear-gradient(to right,rgb(240, 204, 137),#F0C454);
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.thankyouBox a:hover{
+    background: linear-gradient(to right,rgb(233, 159, 23),#F0C454);
+
+}
+
+@media (max-width:768px) {
+    .thankyouBox{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 330px;
+        background-color: white;
+        height: 400px;
+        margin: 100px auto;
+        border-radius: 5px;
+    }
+
+    
+.thankYouTitle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    margin-top: -50px;
+    margin-left: 30px;
+    margin-right: auto;
+    letter-spacing: 1px;
+}
+}
+

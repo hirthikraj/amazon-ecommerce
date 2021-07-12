@@ -1,0 +1,56 @@
+.orderContainer{
+    display: flex;
+    width: 1200px;
+    margin: auto;
+    height: 100%;
+    flex-direction: column;
+}
+
+.ordersTitle{
+    width: 100%;
+}
+
+.ordersTitle h2{
+   text-align: left;
+   font-size: 28px;
+   font-weight: 400;
+   padding: 20px;
+   border-bottom: 2px solid lightgray;
+}
+
+.signIn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    flex-direction: column;
+}
+
+.signIn p{
+    font-size: 35px;
+}
+
+.signIn button{
+    height: 32px;
+    border: 1px solid rgb(172, 113, 3) ;
+    background-color: #F0C454;
+    background: linear-gradient(to right,rgb(240, 204, 137),#F0C454);
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 0px 10px;
+    font-size: 17px;
+}
+
+.signIn button:hover{
+    background: linear-gradient(to top,rgb(235, 166, 37),#e2c783);
+}
+@media (max-width:768px) {
+    .orderContainer{
+        display: flex;
+        width: 350px;
+        margin: 40px auto;
+        height: 100%;
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,210 @@
+.checkout__container{
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+    
+}
+
+.container__left1{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin: 20px;
+    width: 1150px;
+    position: relative;
+}
+
+.container__left1 h2{
+    padding: 20px;
+    font-weight: 600;
+    font-size: 27px;
+    letter-spacing: 1px;
+}
+
+.cart__list{
+    display: flex;
+    flex-direction: column;
+}
+
+.subtotal{
+    border-top: 2px solid lightgrey;
+    margin-left: 10px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+    padding-bottom: 40px;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.subtotal .price{
+    font-weight: 600;
+}
+
+
+.container__right{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 100%;
+    margin-top: 20px;
+    
+}
+
+.container__right img{
+    height: 50px;
+    width: 300px;
+}
+
+.container__right .bottom{
+    margin-top: 10px;
+    background-color: white;
+}
+
+.bottom .row1{
+    display: flex;
+    margin-top: -10px;
+}
+
+.bottom .row1 .text{
+    font-size: 12px;
+    margin-top: 20px;
+    margin-left: 5px;
+    color: rgb(97, 95, 95);
+}
+
+.bottom .row1 .text span{
+    color: green;
+}
+
+.bottom .row1 .icon{
+    color: green;
+    margin: 10px 10px 0px 10px;
+}
+
+.right__subtotal .subtotal2{
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 18px;
+}
+
+.right__subtotal small{
+    margin-left: 30px;
+}
+
+.right__subtotal small input{
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.container__left2{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin: 20px 20px;
+    width: 1150px;
+    height: 200px;
+}
+
+.container__left2 h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 25px;
+}
+
+.buy-btn{
+    width: 80%;
+    height: 30px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #F7CA00;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.buy-btn:hover{
+    background-color:#f7bd00 ;
+}
+
+.bottom .signin{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.bottom .signin p{
+    font-size: 15px;
+    padding: 10px;
+}
+
+.bottom .signin button{
+    height: 32px;
+    border: 1px solid rgb(172, 113, 3) ;
+    background-color: #F0C454;
+    background: linear-gradient(to right,rgb(240, 204, 137),#F0C454);
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 0px 10px;
+    font-size: 17px;
+}
+
+.bottom .signin button:hover{
+    background: linear-gradient(to top,rgb(235, 166, 37),#e2c783);
+}
+
+@media (max-width:768px)
+{
+    .checkout__container{
+        display: flex;
+        margin-top: 30px;
+        justify-content: center;
+        flex-direction: column;  
+    }
+    .container__left1{
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        margin: 50px auto;
+        width:330px;
+        position: relative;
+    }
+
+    .container__right{
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        height: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        
+    }
+
+    .container__left2{
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        margin:50px auto;
+        width: 330px;
+        height: 200px;
+    }
+    .container__left2 h2{
+        font-weight: 600;
+        font-size: 20px;
+        padding: 20px;
+        letter-spacing: 0px;
+        margin: auto;
+    }
+}

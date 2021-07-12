@@ -1,0 +1,28 @@
+.notification{
+    position: absolute;
+    transition: all 0.8s ease;
+}
+
+.notification.hide{
+    top: 20px;
+    right: -800px;
+    opacity: 0;
+}
+
+.notification.show{
+    right: -200px;
+    top: 20px;
+    opacity: 1;
+}
+
+@media (max-width:768px)
+{
+    .notification{
+        position: absolute;
+        transition: all 0.8s ease;
+        height: 20px;
+        width: 80%;
+        margin-right: 250px;
+    }
+}
+

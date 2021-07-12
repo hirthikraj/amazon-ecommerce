@@ -1,0 +1,129 @@
+.checkout__product{
+   display: flex;
+   border-top: 2px solid lightgrey;
+   margin-left: 20px;
+   position: relative;
+   width: 1100px;
+   margin-bottom: 20px;
+   transition: all 0.3s ease;
+}
+
+.checkout__product__left{
+    width: 25%;
+}
+
+.checkout__product__left img{
+    height: 250px;
+    width: 220px;
+    margin: 20px;
+    object-fit: contain;
+}
+
+.checkout__product__right{
+    width: 60%;
+    margin-left: 50px;
+}
+
+.checkout__title{
+    color: rgb(12, 129, 175);
+    margin-top: 40px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.checkout__title:hover{
+    color: rgb(245, 114, 7);
+    text-decoration: underline;
+}
+
+.checkout__desc{
+    font-size: 14px;
+}
+
+.checkout__product__price{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.checkout__product__right img{
+    margin-top: 10px;
+}
+
+.stock{
+    font-size: 13px;
+    color: rgb(12, 129, 175);
+}
+
+.shipping{
+    font-size: 13px;
+    color: rgb(148, 147, 147);
+}
+
+.quantity{
+    margin-top: 10px;
+ 
+}
+
+.quantity label{
+    position: absolute;
+    padding-left: 8px;
+    font-size: 13px;
+    padding-top: 3px;
+}
+
+.quantity select{
+    padding-left: 30px;
+    padding-top: 5px;
+    padding-bottom: 2px;
+}
+
+.last__Row{
+    display: flex;
+}
+
+.del-btn{
+    border: none;
+    background: none;
+    cursor: pointer;
+    margin-top: 14px;
+    margin-left: 10px;
+    color:rgb(12, 129, 175);
+    font-size: 12px;
+    border-left: 2px solid lightgrey;
+    padding-left: 10px;
+    border-right: 2px solid lightgrey;
+    padding-right: 10px;
+}
+
+.del-btn:hover{
+    text-decoration: underline;
+}
+
+@media (max-width:768px) {
+    .checkout__product{
+        display: flex;
+        border-top: 2px solid lightgrey;
+        margin-left: 20px;
+        position: relative;
+        width: 300px;
+        margin-bottom: 20px;
+        margin-right: 20px;
+        flex-direction: column;
+        transition: all 0.3s ease;
+     }
+     .checkout__product__right{
+        width: 80%;
+        margin-left: 30px;
+    }
+    .checkout__product__price{
+        font-size: 18px;
+    }
+    .checkout__desc{
+        font-size: 14px;
+        text-transform: capitalize;
+    }
+}
+
